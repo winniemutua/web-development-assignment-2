@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Links</title>
+    <style>
+      body
+      {font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            color: white;
+            text-align: center;
+        }
+        main {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .food-menu {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .food-item {
+            margin-bottom: 10px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Image Links</h1>
+  </header>
+  <nav>
+    <nav>
+      <a href="#home"target="_blank">Home</a> | 
+      <a href="#gallery"target="_blank">Gallery</a> | 
+      <a href="#menu"target="_blank">Menu</a>
+  </nav>
+  
+  </nav>
+  <main>
+      <section id="home">
+        <h2><a href="#home">Home</a></h2>
+          <p>Welcome to our website! Here's an image related to technology:</p>
+          <a href="https://howlatthemoon.org.uk/"target="_blank"><img src="technology.jpeg" alt="Technology"></a>
+      </section>
+      <section id="gallery">
+        <h2><a href="#gallery">Gallery</a></h2>
+          <div class="grid">
+              <a href="https://en.wikipedia.org/wiki/Natural_environment"target="_blank"><img src="nature 1.jpeg" alt="Nature 1">Nature 1</a>
+              <a href="https://www.weforum.org/agenda/2022/02/outdoor-nature-research-genetics/"target="_blank"><img src="nature 2.jpeg" alt="Nature 2">Nature 2</a>
+              <a href="https://www.pbs.org/wnet/nature/about/"><img src="nature 3.jpeg" alt="Nature 3"target="_blank">Nature 3</a>
+          </div>
+      </section>
+      <section id="menu">
+        <h2><a href="#menu">Menu</a></h2>
+          <ul class="food-menu">
+              <li class="food-item"><a href="https://www.eatingwell.com/article/291139/the-top-10-healthiest-foods-for-kids/"target="_blank"><img src="food1.jpeg" alt="Food 1">food 1</a></li>
+              <li class="food-item"><a href="https://www.healthline.com/nutrition/50-super-healthy-foods/"target="_blank"><img src="food2.jpeg" alt="Food 2">Food 2</a></li>
+              <li class="food-item"><a href="https://www.forbes.com/health/nutrition/foods-to-eat-to-lose-weight/"target="_blank"><img src="food3.jpeg" alt="Food 3">food 3</a></li>
+          </ul>
+      </section>
+  </main>
+  <footer>
+   <p>&copy; 2024 Image Links. All rights reserved.</p>
+  </footer>
+  
+  </body>
+</html>
